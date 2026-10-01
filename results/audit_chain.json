@@ -1,0 +1,373 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1784379504.9814727,
+    "event": {
+      "event": "access_granted",
+      "client_id": "mallory",
+      "resource": "aws-db-01",
+      "note": "maliciously edited"
+    },
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "498875e1bff92e219a5e6be0b24da9d580ca16489855121fe5c47a546c47ddbc"
+  },
+  {
+    "index": 1,
+    "timestamp": 1784380243.6519608,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": 0.0739
+    },
+    "previous_hash": "498875e1bff92e219a5e6be0b24da9d580ca16489855121fe5c47a546c47ddbc",
+    "hash": "910192e5b7188f54a90c4d6a407d93474f6acabbac8fd2c0940c6a4bd2835f76"
+  },
+  {
+    "index": 2,
+    "timestamp": 1784380392.1047475,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "azure-app-01",
+      "reason": "not_authorized_by_policy"
+    },
+    "previous_hash": "910192e5b7188f54a90c4d6a407d93474f6acabbac8fd2c0940c6a4bd2835f76",
+    "hash": "a3e23ab376da71e0d7e9c410b812e51473c7365dd2adc2788a807a3616fdac80"
+  },
+  {
+    "index": 3,
+    "timestamp": 1784380567.8388765,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "azure-app-01",
+      "reason": "not_authorized_by_policy"
+    },
+    "previous_hash": "a3e23ab376da71e0d7e9c410b812e51473c7365dd2adc2788a807a3616fdac80",
+    "hash": "bccef606383cd2913e70af72abac4ba8c7e52a03c8c68ba7751563f8b059ac69"
+  },
+  {
+    "index": 4,
+    "timestamp": 1784380603.6076272,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": 0.0739
+    },
+    "previous_hash": "bccef606383cd2913e70af72abac4ba8c7e52a03c8c68ba7751563f8b059ac69",
+    "hash": "187bdb1e6dd360eb461189515ceda552de93b81d4d11644cc6d5caeac020bd09"
+  },
+  {
+    "index": 5,
+    "timestamp": 1784380679.509482,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alie",
+      "resource": "aws-db-01",
+      "reason": "not_authorized_by_policy"
+    },
+    "previous_hash": "187bdb1e6dd360eb461189515ceda552de93b81d4d11644cc6d5caeac020bd09",
+    "hash": "6a6301f3cb99246800c1e7b386e4fdac143cd656a1bcd58e6f4fd4684623490d"
+  },
+  {
+    "index": 6,
+    "timestamp": 1784381633.2870116,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": 0.0436
+    },
+    "previous_hash": "6a6301f3cb99246800c1e7b386e4fdac143cd656a1bcd58e6f4fd4684623490d",
+    "hash": "68ce019e5209e3bbfc0099ab5121202dd601f200d5de795732df5c52a6ee138d"
+  },
+  {
+    "index": 7,
+    "timestamp": 1784381634.6019945,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": 0.0499
+    },
+    "previous_hash": "68ce019e5209e3bbfc0099ab5121202dd601f200d5de795732df5c52a6ee138d",
+    "hash": "95b8d8ca5ec9bbf3640be7fde20f8fc8ada625e2c34281f9ae3f906748b9d47a"
+  },
+  {
+    "index": 8,
+    "timestamp": 1784381635.7653992,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": 0.0166
+    },
+    "previous_hash": "95b8d8ca5ec9bbf3640be7fde20f8fc8ada625e2c34281f9ae3f906748b9d47a",
+    "hash": "cd0fc3565bdab6b5a9158b12c1e8b29780593a8eb4641bffeb2f74d5986f101d"
+  },
+  {
+    "index": 9,
+    "timestamp": 1784381636.8739674,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": -0.0155
+    },
+    "previous_hash": "cd0fc3565bdab6b5a9158b12c1e8b29780593a8eb4641bffeb2f74d5986f101d",
+    "hash": "a4282738009606167c5fc2b0f3b81fefbd9b85bece608938bcc388f60a5d9ab2"
+  },
+  {
+    "index": 10,
+    "timestamp": 1784381637.903233,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "a4282738009606167c5fc2b0f3b81fefbd9b85bece608938bcc388f60a5d9ab2",
+    "hash": "e4aefa32258c2da5b085dc7d8be2669930b5230adbfbb25c650deea4dd1db2e6"
+  },
+  {
+    "index": 11,
+    "timestamp": 1784381638.3953311,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "e4aefa32258c2da5b085dc7d8be2669930b5230adbfbb25c650deea4dd1db2e6",
+    "hash": "0a605946483112a50f70f9fbc50fb6ef079b8a0982e624a854e8f7ce2dd73763"
+  },
+  {
+    "index": 12,
+    "timestamp": 1784381638.9029212,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "0a605946483112a50f70f9fbc50fb6ef079b8a0982e624a854e8f7ce2dd73763",
+    "hash": "17b761b82562b38ae175a9150ab6c1c2890d86b3985f61d5ed66765d092f6726"
+  },
+  {
+    "index": 13,
+    "timestamp": 1784381639.4567177,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "17b761b82562b38ae175a9150ab6c1c2890d86b3985f61d5ed66765d092f6726",
+    "hash": "cd6591ca07f6daa3f12a68d55a670a12e12c9c4529e028314ff110d3ddec9197"
+  },
+  {
+    "index": 14,
+    "timestamp": 1784381858.9861915,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": 0.0436
+    },
+    "previous_hash": "cd6591ca07f6daa3f12a68d55a670a12e12c9c4529e028314ff110d3ddec9197",
+    "hash": "ef1e302fd07673851c11c1720f5cb351c668c9bc6c2231f60dacf8aa3a6928fa"
+  },
+  {
+    "index": 15,
+    "timestamp": 1784382177.49943,
+    "event": {
+      "event": "access_granted",
+      "client_id": "carol",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": 0.0042
+    },
+    "previous_hash": "ef1e302fd07673851c11c1720f5cb351c668c9bc6c2231f60dacf8aa3a6928fa",
+    "hash": "29753c0958b7883adf917f1e7e66d6899ae9270dbfcf784bc1048aa694b3025c"
+  },
+  {
+    "index": 16,
+    "timestamp": 1784382220.8248677,
+    "event": {
+      "event": "access_denied",
+      "client_id": "bob",
+      "resource": "aws-db-01",
+      "reason": "not_authorized_by_policy"
+    },
+    "previous_hash": "29753c0958b7883adf917f1e7e66d6899ae9270dbfcf784bc1048aa694b3025c",
+    "hash": "2dea93f44a7b09641f607c91a8df26dabfe6e919a3147d49d84f63b58ba2f0c1"
+  },
+  {
+    "index": 17,
+    "timestamp": 1785078092.7244797,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": -0.0147
+    },
+    "previous_hash": "2dea93f44a7b09641f607c91a8df26dabfe6e919a3147d49d84f63b58ba2f0c1",
+    "hash": "f2f489d74c3284908b48dae97701d1a473b036c6d55c2fa9fddc868dbd72b5fd"
+  },
+  {
+    "index": 18,
+    "timestamp": 1785078661.7934263,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "azure-app-01",
+      "reason": "not_authorized_by_policy"
+    },
+    "previous_hash": "f2f489d74c3284908b48dae97701d1a473b036c6d55c2fa9fddc868dbd72b5fd",
+    "hash": "7a2dcb128ef1ce9cad47ed532b2b356085cf9a7a6e6ea68c0949171f7840ce56"
+  },
+  {
+    "index": 19,
+    "timestamp": 1785079280.8431275,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": 0.0149
+    },
+    "previous_hash": "7a2dcb128ef1ce9cad47ed532b2b356085cf9a7a6e6ea68c0949171f7840ce56",
+    "hash": "7c2041404118b06f4ea834c22074720b392c4a75ca4ba8cba23b9a159d850d3f"
+  },
+  {
+    "index": 20,
+    "timestamp": 1785079281.696468,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": 0.0221
+    },
+    "previous_hash": "7c2041404118b06f4ea834c22074720b392c4a75ca4ba8cba23b9a159d850d3f",
+    "hash": "af3f59d2df2c3ff916d6655b2313b829b6af353a4113458d210a5c80859118e5"
+  },
+  {
+    "index": 21,
+    "timestamp": 1785079282.5601482,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": -0.0024
+    },
+    "previous_hash": "af3f59d2df2c3ff916d6655b2313b829b6af353a4113458d210a5c80859118e5",
+    "hash": "cea77061156c2bc7d3ab53c980ea1ee823728acda6325c255d3d0eae17ff8770"
+  },
+  {
+    "index": 22,
+    "timestamp": 1785079283.3924346,
+    "event": {
+      "event": "access_granted",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "gateway": "aws",
+      "anomaly_score": -0.0282
+    },
+    "previous_hash": "cea77061156c2bc7d3ab53c980ea1ee823728acda6325c255d3d0eae17ff8770",
+    "hash": "918b9450ed24332b7e13f6a3a79a8372755418a0de39c5cefd44aa8b297aeceb"
+  },
+  {
+    "index": 23,
+    "timestamp": 1785079284.1884208,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "918b9450ed24332b7e13f6a3a79a8372755418a0de39c5cefd44aa8b297aeceb",
+    "hash": "43c7c53f8a82725405cbe72bac781dab1ffcb7960f714205ba9240fb1c0e62f3"
+  },
+  {
+    "index": 24,
+    "timestamp": 1785079284.4779792,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "43c7c53f8a82725405cbe72bac781dab1ffcb7960f714205ba9240fb1c0e62f3",
+    "hash": "494cf813b1a7b617ca712c529bdcaae9ad81f7ad3c9c72acfc2c67ee746cdd9c"
+  },
+  {
+    "index": 25,
+    "timestamp": 1785079284.763324,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "494cf813b1a7b617ca712c529bdcaae9ad81f7ad3c9c72acfc2c67ee746cdd9c",
+    "hash": "bbbdc5b025a2989a38878283bc0da801ff3d2f2982e06c642edcc6937d27c13e"
+  },
+  {
+    "index": 26,
+    "timestamp": 1785079285.054765,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "bbbdc5b025a2989a38878283bc0da801ff3d2f2982e06c642edcc6937d27c13e",
+    "hash": "70df90eb1ce2b6d0651d82e5a27537eb5db46456b1b589cc1c3f84ca4f53fa1a"
+  },
+  {
+    "index": 27,
+    "timestamp": 1785079285.4908442,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "70df90eb1ce2b6d0651d82e5a27537eb5db46456b1b589cc1c3f84ca4f53fa1a",
+    "hash": "98d4fd022d3d2699981da8bf8e3844230f7da76743bc02c5668baf77694a1e43"
+  },
+  {
+    "index": 28,
+    "timestamp": 1785079285.7835305,
+    "event": {
+      "event": "access_denied",
+      "client_id": "alice",
+      "resource": "aws-db-01",
+      "reason": "step_up_authentication_required",
+      "risk_score": 0.7
+    },
+    "previous_hash": "98d4fd022d3d2699981da8bf8e3844230f7da76743bc02c5668baf77694a1e43",
+    "hash": "2709965cbd5bc70bba1b2a9befb28dd31521a39085cb72190404638fe04508ec"
+  }
+]
